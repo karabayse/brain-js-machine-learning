@@ -1,7 +1,7 @@
 const brain = require('brain.js');
 const network = new brain.NeuralNetwork();
 
-// Training Data Set 
+// Training Data Set
 network.train([
   { input: [0,0,0], output: [0] },
   { input: [0,0,1], output: [0] },
@@ -13,3 +13,7 @@ network.train([
 const output = network.run([1,0,0]);
 
 console.log(`Probability: ${output}`);
+
+// Long Short-Term Memory
+// Strings
+// RNN -> Recurrent Neural Network 
