@@ -1,3 +1,5 @@
 ## Machine Learning with brain.js
 
-```node index.js``` to run in terminal
+Basic machine learning and neural networks
+
+```node index.js``` and ```node index2.js``` to run in terminal
